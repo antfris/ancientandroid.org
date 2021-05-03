@@ -1,0 +1,317 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    max-width: 40em;
+    margin: 0 auto;
+    padding: 5px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 1.1em;
+}
+p {
+    margin: 0;
+    line-height: 1.8em;
+    margin-top: 2em;
+    font-family: georgia;
+    font-size: 1.15em;
+}
+
+code {
+    border-radius: 3px;
+    font-family: courier, monospace;
+    color: #333;
+    background: #fdfdfd;
+}
+
+pre {
+    margin: 0;
+    display: block;
+    padding: 5px 0px 5px 0px;
+    margin-top: 2em;
+    display: block;
+    overflow-x: auto;
+    padding: 1em;
+    color: #333;
+    background: #fdfdfd;
+}
+
+pre > code {
+
+}
+
+h1 {
+    font-size: 3em;
+    font-family: georgia;
+    font-weight: 400;
+    margin: 0;
+    margin-top: 2em;
+    color: black;
+}
+
+h2 {
+    margin: 0;
+    font-size: 1.5em;
+    /*font-family: 'Shadows Into Light', cursive;*/
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 'bold';
+    margin-top: 2em;
+    color: black;
+    text-transform: capitalize;
+}
+
+h3 {
+    margin: 0;
+    font-size: 1.15em;
+    /**/font-family: georgia;
+    font-weight: bold;
+    margin-top: 2em;
+    color: black;
+}
+
+h4 {
+    font-size: 1.1em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    margin-top: 2em;
+    color: black;
+    text-transform: capitalize;
+}
+
+h5 {
+    font-size: 0.9em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    margin-top: 2em;
+    color: black;
+    text-transform: capitalize;
+}
+
+ul {
+    margin: 0;
+    margin-top: 2em;
+}
+
+table {
+    width: 100%;
+    margin: 0;
+    margin-top: 2em;
+}
+
+table > thead {
+    text-align: left;
+}
+
+blockquote {
+  background: #fefefe;
+  border-left: 5px solid black;
+  font-size: 1.1em;
+  margin: 1.5em 0px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+  padding: 20px;
+  font-style: italic;
+}
+
+/*
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+*/
+
+blockquote p {
+  display: inline;
+}
+
+footer {
+    border-top: 1px solid #ccc;
+    margin: 100px 0px 100px 0px;
+    padding: 20px;
+}
+
+footer > div {
+    margin: 20px 0px 20px 0px;
+    color: black;
+}
+
+footer:before {
+    content: "References"
+}
+
+p > img {
+    width: 100%;
+}
+
+hr {
+    overflow: visible; /* For IE */
+    padding: 0;
+    border: none;
+    margin: 50px 0px 50px 0px;
+    border-top: none;
+    color: #333;
+    text-align: center;
+}
+
+hr:before {
+    content: "\00B7                    \00B7                    \00B7";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;
+}
+
+sub {
+    font-size: 1.2em;
+    color: #888;
+}
+
+/*
+.pagesContent p {
+    margin: 0 0 0 0;
+}
+
+.pagesContent ul {
+    margin: 0 0 0 0;
+}*/
+
+.antWatermark {
+    margin-top: 2em;
+}
+
+.antWatermarkImg {
+    width: 50px;
+    height: 50px;
+    background-image: url('http://localhost:8080/modules/wasp-side.jpg');
+    border-radius: 50%;
+    float: left;
+}
+
+.antWatermarkText {
+    float: left;
+    margin-left: 10px;
+}
+
+.antWatermarkName {
+    margin-top: 4px;
+    font-size: 0.9em;
+}
+
+.antWatermarkDate {
+    font-size: 0.8em;
+    color: #999;
+}
+
+.clearBoth {
+    clear: both;
+}
+
+.header {
+    margin-top: 30px;
+}
+
+.headerLogo {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* header title */
+.headerLogo a:link {
+  color: black;
+  text-decoration: none;
+}
+.headerLogo a:visited {
+  color: black;
+}
+.headerLogo a:hover {
+  color: darkred;
+  text-black: underline;
+}
+.headerLogo a:active {
+  color: black;
+}
+
+.header > ul {
+    padding: 0;
+    display: inline-block;
+}
+
+.header > ul > li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+/* header menu */
+.header > p a:link {
+  color: #0000EE;
+  text-decoration: none;
+}
+.header > p a:visited {
+  color: #0000EE;
+}
+.header > p a:hover {
+  color: #0000EE;
+  text-decoration: underline;
+}
+.header > p a:active {
+  color: #0000EE;
+}
+
+.musicPlayerContainer {
+    width: 100%;
+    max-width: 40em;
+}
+
+.musicPlayerFixed {
+    position: fixed;
+    bottom: -95px;
+    transition: bottom .5s;
+    width: inherit;
+    max-width:inherit;
+    height: 90px;
+    border: 1px solid gray;
+    background: #fff;
+}
+
+.musicPlayerOpen {
+    bottom: 0px;
+}
+
+.musicPlayerSpacer {
+    height: 200px;
+}
+
+.imageGridWrapper {
+    margin-top: 2em;
+}
+
+.imageGridContainer {
+    display: flex;
+}
+
+.imageGridItem {
+    margin: 2px;
+    height: "200px";
+    background-position: "center";
+    background-repeat: "no-repeat";
+    background-size: "cover";
+}
+
+.playButton {
+    font-size: 1.6em;
+}
+
+thead > tr > th:first-child {
+    width: 200px;
+}
+
+.audioComponentChildren {
+    position: relative;
+    display: inline-block;
+    top: -8px;
+    margin-left: 5px;
+}
