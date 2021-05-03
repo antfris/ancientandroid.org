@@ -27,7 +27,7 @@ class App extends React.Component {
     render () {
         return (
             <BrowserRouter>
-                <Header />
+                //<Header />
                 <Switch>
                     <Route path="/static/media/*">
                         <Redirect to="/page-not-found" />
